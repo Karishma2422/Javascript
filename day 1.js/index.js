@@ -12,33 +12,21 @@
 
 
 
-// 1.1 String
-// "" '' ``
+//string
+console.log("KARISHMA",typeof("KARISHMA"))
+console.log('12345',typeof('12345'));
+console.log(`!@#$%^&*`,typeof(`!@#$%^&*`));
 
-// "awdiz"
-// 'vashi'
-// `students`
-// '1'
-// "234"
-// `3245#@$%^&#@#$`
+console.log(12345,typeof(12345));
 
-// function -> multiple lines of code -> feature return
+console.log(typeof('157.93'));
+//Boolean
+console.log(true , typeof(true));
+console.log(false , typeof(false));
 
-console.log(typeof("KARISHMA"))
-console.log(typeof('PANVEL'))
-console.log(typeof(`I AM DEVLOPER`))
-console.log(typeof("12345"))
-console.log(typeof('56789'))
-console.log(typeof(`!@#$%^&*`))
+//undefined
+console.log(typeof(tabletop ));
 
-// Number
-
-// 12
-// 2121
-// 456789
-// console.log(typeof(a))
-// console.log(typeof(2.23))
-// console.log(typeof("@@#$$"))
 
 // Boolean true false
 
