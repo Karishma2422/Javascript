@@ -24,7 +24,7 @@
 
 // function -> multiple lines of code -> feature return
 
-console.log("KARISHMA")
+console.log(typeof("KARISHMA"))
 console.log(typeof('PANVEL'))
 console.log(typeof(`I AM DEVLOPER`))
 console.log(typeof("12345"))
