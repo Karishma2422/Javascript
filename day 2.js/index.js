@@ -16,52 +16,53 @@
 // scope      global/function block-scope   block-scope
 // hoisting        true        false         false
 
-// let -> varible
-let number = 12;
-console.log(number);
-number = 14;
-console.log(number);
-let number = 16;
-console.log(number);
+// let -> varible using assign , reasign , declare
+let abc = 15;
+console.log(abc);
+abc = 25;
+console.log(abc);
+let abc = 75;
+console.log(abc);
 
-const myNumber = 20;
-console.log(myNumber);
-myNumber = 30;
-console.log(myNumber);
-const myNumber = 40;
-console.log(myNumber);
-{
+// using const variable
 
-// } -> block
+const myname = 25;
+console.log(myname);
+myname = 35;
+console.log(myname);
+const myname = 45;
+console.log(myname );
 
-{
-  var myNumber = 20;
-  console.log(myNumber);
-}
-console.log(myNumber);
+// // } -> block
 
-{
-  {
-    let myNumber = 20; // first version
-    console.log(myNumber);
-  }
-  console.log(myNumber);
-}
-console.log(myNumber);
+// {
+//   var myNumber = 20;
+//   console.log(myNumber);
+// }
+// console.log(myNumber);
 
-{
-  {
-    const myNumber = 20; // first version
-    console.log(myNumber);
-  }
-  console.log(myNumber);
-}
-console.log(myNumber);
+// {
+//   {
+//     let myNumber = 20; // first version
+//     console.log(myNumber);
+//   }
+//   console.log(myNumber);
+// }
+// console.log(myNumber);
 
-Hoisting
+// {
+//   {
+//     const myNumber = 20; // first version
+//     console.log(myNumber);
+//   }
+//   console.log(myNumber);
+// }
+// console.log(myNumber);
 
-var myNumber;
-console.log(myNumber, typeof(myNumber));
+// Hoisting
+
+// var myNumber;
+// console.log(myNumber, typeof(myNumber));
 
 // line by line execution
 // 2 rounds
@@ -69,31 +70,16 @@ console.log(myNumber, typeof(myNumber));
 // initilization
 // execution
 
-myNumber = 20;
-console.log(myNumber);
-var myNumber;
-myNumber = 20;
-console.log(myNumber);
-let myNumber;
-myNumber = 20;
-console.log(myNumber);
-const myNumber;
-
-var number = 20;
-console.log(number);
-number = 30;
-console.log(number);
-
 // Conditional statement  -> multiple conditions ->
 
-var number1 = 30;
-var number2 = 30;
-if else
-if(conditions){
-    statement 1
-} else {
-    statement 2
-}
+var number1 = 399;
+var number2 = 599;
+// if else
+// if(conditions){
+//     statement 1
+// } else {
+//     statement 2
+// }
 
 console.log(number1 > number2);
 
