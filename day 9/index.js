@@ -21,7 +21,7 @@ while (i < array.length){
     console.log(array[i]);
     count++;
   }
-    i++;
+    i++;   
 }
 console.log("This numbers from given array");
 console.log("This is the count of even numbers");
